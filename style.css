@@ -45,7 +45,7 @@ a {
 ul {
   list-style: none;
 }
-li:befor {
+li:before {
   content: "★";
   color:var(--theme-color);
 }
@@ -54,8 +54,7 @@ li:befor {
  ----------------*/
 
 table {
-  border-spacing: 0;
-  border-spacing: collapse;
+  border-collapse: collapse;
   border: solid 1px #f0f0f0;
   min-width: 70%;
 }
@@ -66,7 +65,7 @@ tr:nth-child(2n) {
   background-color: #f9f9f9;
 }
 th{
-  background:var(--themecolor);
+  background:var(--theme-color);
   color: #fff;
 }
 th,td{
@@ -77,4 +76,4 @@ th,td{
 /*-------------------
        openなんとか
 -------------------*/
-.resizeimage i Frame { width: 100%; }
+.resizeimage iframe { width: 100%; }
